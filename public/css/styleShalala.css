@@ -1,0 +1,51 @@
+.h-100px{
+    height: 100px;
+}
+
+.area{
+    border-color: blue;
+    border: solid 2px;
+}
+
+div.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.item{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-decoration: none;
+}
+.circular img{
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-secondary{
+    background-color: #ffc8cb;
+}
+
+.display-none{
+    display: none;
+}
+
+.scrollable{
+    height: 200px;
+    overflow: scroll;
+}
